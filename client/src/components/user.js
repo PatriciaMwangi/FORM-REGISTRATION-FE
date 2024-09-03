@@ -36,6 +36,10 @@ const User = () => {
         },
       });
       setMessage(response.data.message);
+      setName('')
+      setPhoneNumber('')
+      setIdentity('')
+      setProfilePhoto(null)
     } catch (error) {
       setMessage('Error submitting user');
       console.log('Error', error);
