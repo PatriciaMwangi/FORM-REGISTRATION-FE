@@ -1,0 +1,58 @@
+/* User.css */
+
+.user-form-container {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #9f7aea, #6b46c1);
+    color: white;
+    padding: 2rem;
+  }
+  
+  .user-form-container h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #9f7aea;
+    transition: all 0.3s;
+  }
+  
+  .input-field:focus {
+    outline: none;
+    ring: 2px solid #6b46c1;
+  }
+  
+  .file-input {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    color: #6b46c1;
+  }
+  
+  .submit-button {
+    background-color: #6b46c1;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+    width: 100%;
+  }
+  
+  .submit-button:hover {
+    background-color: #553c9a;
+  }
+  
+  p {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
