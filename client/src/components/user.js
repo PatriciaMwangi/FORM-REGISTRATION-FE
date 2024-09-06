@@ -30,7 +30,7 @@ const User = () => {
     }
 
     try {
-      const response = await axios.post('https://form-registration-be-1.onrender.com/', formData, {
+      const response = await axios.post('https://form-registration-be-1.onrender.com/home', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
